@@ -1,0 +1,23 @@
+.footer {
+    background-color: #130f2a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .footer-content p {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
