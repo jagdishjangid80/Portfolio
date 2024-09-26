@@ -51,10 +51,10 @@ export const WORK_EXPERIENCE = [
     title: "Freelancer",  
     date: "Sep 2024 - Present",  
     responsibilities: [
-      "Assisted in the development of a new e-commerce platform, contributing to the implementation of responsive and dynamic user interfaces using React and Bootstrap.",
-      "Collaborated with the backend team to integrate RESTful APIs, ensuring seamless data flow between the frontend and backend systems.",
-      "Worked on optimizing website performance, including image optimization, code splitting, and improving page load times for enhanced user experience.",
-      "Participated in code reviews, bug fixes, and feature development, adhering to Agile methodologies and ensuring timely project delivery."
+      "Developed responsive and dynamic UIs using React and Bootstrap, enhancing user experience across devices.",
+      "Collaborated closely with backend teams, integrating RESTful APIs to ensure smooth data flow between front and backend systems.",
+      "Optimized website performance through techniques like image optimization, code splitting, and minimizing load times.",
+      "Delivered projects on time by adhering to Agile methodologies and actively participating in sprints for continuous improvement."
     ]
   }
   

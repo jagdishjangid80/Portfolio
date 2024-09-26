@@ -14,7 +14,7 @@ function Home() {
         </div>
         <div className="hero-img">
           <div>
-            <div className="tech-icon">
+          <div className="tech-icon">
               <img src="./assets/images/react_js.png" alt="React JS" />
             </div>
             <img src="./assets/images/profile.png" alt="Profile" />
