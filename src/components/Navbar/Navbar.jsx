@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';  
 import "./Navbar.css";
 
 function Navbar() {
@@ -19,7 +18,7 @@ function Navbar() {
         behavior: "smooth",
       });
     }
-    setMenuOpen(false);
+    setMenuOpen(false); // Close the menu when an item is clicked
   };
 
   return (
@@ -52,8 +51,15 @@ function Navbar() {
           <a href="./assets/images/Resume.pdf" download className="contact-btn">
             Hire Me
           </a>
-          <button className="menu-btn" onClick={toggleMenu}>
-            <FontAwesomeIcon icon={faBars} style={{ fontSize: "1.8rem" }} />
+          <button 
+            className={`menu-btn ${MenuOpen ? "rotated" : ""}`} 
+            onClick={toggleMenu}
+          >
+            {MenuOpen ? (
+              <XMarkIcon className="h-8 w-8 text-white" />
+            ) : (
+              <Bars3Icon className="h-8 w-8 text-white" />
+            )}
           </button>
         </div>
       </nav>
